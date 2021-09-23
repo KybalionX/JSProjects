@@ -12,7 +12,7 @@ buttons.forEach(button => {
             if (input.value == "") {
                 input.placeholder = "Digite algo!";
             }
-            console.log(eval(input.value));
+            input.value = eval(input.value);
             return;
         }
         if (number == '<') {
